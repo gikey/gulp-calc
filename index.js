@@ -16,8 +16,8 @@ module.exports = function(options) {
     
     var str = file.contents.toString();
     
-    var s = str.replace(/((-?\d+)(\.\d+)?)px/ig, function($1, $2, $3) {
-      return ($2 / divisor) + 'px'
+    var s = str.replace(/((-?\d+)(\.\d+)?)px/ig, function($0, $1) {
+      return ($1 / divisor) + 'px'
     });
     
     file.contents = new Buffer(s);
