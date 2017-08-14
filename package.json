@@ -1,0 +1,26 @@
+{
+  "name": "gulp-calc",
+  "version": "1.0.2",
+  "description": "unit calculation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gikey/gulp-calc.git"
+  },
+  "keywords": [
+    "gulp",
+    "calculation"
+  ],
+  "author": "gikey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gikey/gulp-calc/issues"
+  },
+  "homepage": "https://github.com/gikey/gulp-calc#readme",
+  "dependencies": {
+    "through2": "^2.0.3"
+  }
+}
